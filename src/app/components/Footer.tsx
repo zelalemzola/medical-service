@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <p className="text-sm text-gray-400">Talk to a Doctor with our secure and friendly platfrom</p>
         </div>
-        <div className="flex flex-row flex-wrap gap-5 md:gap-20">
+        <div className="flex flex-row flex-wrap gap-7 md:gap-20">
               <Instagram className='text-lg text-primary  p-1  font-bold scale-[200%]' />
               <Facebook className='text-lg text-primary  p-1   font-bold scale-[200%]' />
               <Twitter className='text-lg text-primary p-1   font-bold scale-[200%]' />
