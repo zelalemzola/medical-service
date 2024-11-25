@@ -41,7 +41,7 @@ const Blogs = () => {
   }
 
   return (
-    <div className=''>
+    <div className='h-full'>
       <h1 className="text-primary text-3xl md:text-4xl font-extrabold text-center py-[20%] md:py-[5%]">
         Latest Blog Posts
       </h1>

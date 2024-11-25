@@ -181,7 +181,7 @@ const Workers = () => {
 
       {(!maidsData || !categoriesData) ? <div className='pt-[40%] text-xl text-primary font-bold mx-auto'>Loading Physician...</div>
         :
-        <div className="flex flex-wrap items-center justify-center gap-x-2 md:gap-x-8 gap-y-20 py-20 pt-[27%] md:pt-[15%] z-0  h-screen">
+        <div className="flex flex-wrap items-center justify-center gap-x-2 md:gap-x-8 gap-y-20 py-20 pt-[27%] md:pt-[15%] z-0  h-full">
           {filteredMaids.map((maid) => (
             <Card key={maid._id} className="relative shadow-lg py-4 md:p-4 scale-[90%] md:scale-100 bg-primary text-white hover:shadow-xl">
               <CardHeader>
