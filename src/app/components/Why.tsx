@@ -5,7 +5,7 @@ import React from 'react'
 const Why = () => {
   return (
     <div className='md:h-screen flex flex-col gap-10 md:gap-20 items-center justify-center w-full py-10'>
-       <h1 className='text-4xl font-semibold flex items-center flex-col'>
+       <h1 className='text-3xl md:text-4xl font-semibold flex items-center flex-col text-center'>
         Why should you trust us?
         <span>Get to know about us</span>
        </h1>
