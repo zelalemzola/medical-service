@@ -5,7 +5,7 @@ import BlurFade from '@/components/ui/blur-fade'
 import { FadeText } from '@/components/ui/fade-text'
 const ChatInfo = () => {
     return (
-        <div className='md:h-screen flex items-center justify-center flex-col md:flex-row px-10 md:px-20 py-15 md:py-0 gap-5 md:gap-0'>
+        <div className='md:h-screen flex items-center justify-center flex-col md:flex-row px-10 md:px-20 py-10 md:py-0 gap-5 md:gap-0 '>
             <div className="flex-1">
                 <BlurFade delay={0.25} inView={true}>
                 <Image src='/docchat2.png' alt='doctor chatting' width={640} height={640}  />
