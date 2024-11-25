@@ -46,7 +46,7 @@ const Blogs = () => {
         Latest Blog Posts
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 space-y-10 md:space-y-0 p-4 h-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 space-y-10 md:space-y-0 p-4  py-20 h-full">
         {blogs.map((blog) => (
           <Link key={blog._id} href={`/blogs/${blog._id}`} className="relative group">
             <img
