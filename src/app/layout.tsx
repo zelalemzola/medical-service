@@ -31,7 +31,7 @@ export default function RootLayout({
         className={` antialiased`}
       >
         <Navbar />
-        <div className="pt-[10%] md:pt-[3%] w-full z-0"> {children}</div>
+        <div className="pt-[10%] md:pt-[3%] w-full z-0 h-full"> {children}</div>
         <Footer />
       </body>
     </html>
