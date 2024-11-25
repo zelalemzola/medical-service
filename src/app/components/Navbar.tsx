@@ -46,6 +46,7 @@ import { Button } from '@/components/ui/button';
                             <Link href='/' className='text-primary font-medium text-lg p-1 hover:text-black'>Home</Link>
                             <Link href='/' className='text-primary font-medium text-lg p-1 hover:text-black'>Services</Link>
                             <Link href='/' className='text-primary font-medium text-lg p-1 hover:text-black'>Chat</Link>
+                            <Link href='/blogs' className='text-primary font-medium text-lg p-1 hover:text-black'>Blogs</Link>
                             <Link href='/workers' className='text-white bg-primary p-1 rounded-lg font-medium text-lg  hover:shadow-lg'>Professionals</Link>
                             <Link href='/' className='text-gray-400 bg-white p-1 px-3 rounded-full font-medium text-xs  shadow-lg flex items-center flex-col gap-1'>Call Us <span>+251988745721</span> </Link>
                      </div>
