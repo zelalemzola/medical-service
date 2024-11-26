@@ -21,7 +21,7 @@ const Hero = () => {
           framerProps={{
             show: { transition: { delay: 0.45 } },
           }}
-          text="Talk with a doctor using our highly secure, user friendly platform."
+          text="Talk to a doctor using our highly secure, user friendly platform."
         />
             <div className="flex items-center gap-4 flex-wrap pt-5">
              <BlurFade delay={0.45} inView={true}>
