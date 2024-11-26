@@ -46,7 +46,7 @@ import { Button } from '@/components/ui/button';
                      <div className="flex flex-col items-center gap-3 w-full mx-auto">
                             <Link href='/' className='text-primary font-medium text-lg p-1 hover:text-black'>Home</Link>
                             <Link href='/about' className='text-primary font-medium text-lg p-1 hover:text-black'>About</Link>
-                            <Link href='/' className='text-primary font-medium text-lg p-1 hover:text-black'>Services</Link>
+                            <Link href='/services' className='text-primary font-medium text-lg p-1 hover:text-black'>Services</Link>
                             <Link href='/' className='text-primary font-medium text-lg p-1 hover:text-black'>Chat</Link>
                             <Link href='/blogs' className='text-primary font-medium text-lg p-1 hover:text-black'>Blogs</Link>
                             <Link href='/workers' className='text-white bg-primary p-1 rounded-lg font-medium text-lg  hover:shadow-lg'>Professionals</Link>
