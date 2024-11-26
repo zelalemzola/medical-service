@@ -146,7 +146,7 @@ const ServicesPage = () => {
           </div>
           <div
             className={
-              "relative flex h-[160px] md:h-[350px]  flex-col p-6 overflow-hidden rounded-lg border bg-muted md:shadow-xl flex-1 "
+              "relative hidden md:flex h-[160px] md:h-[350px]  flex-col p-6 overflow-hidden rounded-lg border bg-muted md:shadow-xl flex-1 "
             }
           >
             <AnimatedList>
@@ -154,6 +154,30 @@ const ServicesPage = () => {
                 <Notification {...item} key={idx} />
               ))}
             </AnimatedList>
+          </div>
+          <div className="flex md:hidden  flex-col gap-4 items-center">
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Medial problems (anatomical and physiological)</p>
+            </div>
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Prevention will be done to all; at all age category </p>
+            </div>
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Chronic and other life style related problem </p>
+            </div>
+             <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Addictive and related behavioral problems</p>
+            </div>
+             <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Nutritional and dietary problems </p>
+            </div>
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Psychiatric and Psychological</p>
+            </div>
+           
+           
+            
+            
           </div>
            </div>
    
@@ -173,7 +197,7 @@ const ServicesPage = () => {
           </div>
           <div
             className={
-              "relative flex h-[160px] md:h-[350px]  flex-col p-6 overflow-hidden rounded-lg border bg-muted md:shadow-xl flex-1 "
+              "relative hidden md:flex h-[160px] md:h-[350px]  flex-col p-6 overflow-hidden rounded-lg border bg-muted md:shadow-xl flex-1 "
             }
           >
             <AnimatedList>
@@ -182,18 +206,43 @@ const ServicesPage = () => {
               ))}
             </AnimatedList>
           </div>
+
+          <div className="flex md:hidden  flex-col gap-4 items-center">
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Those in need of psychiatric and psychological treatment</p>
+            </div>
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Those with medical and physical problems in need of care and support </p>
+            </div>
+            
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Care for those with the need for palliative care</p>
+            </div>
+            
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>All services to be provided on the basis of care </p>
+            </div>
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Those with the need for intensive care </p>
+            </div>
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Those with surgical procedure </p>
+            </div>
+            
+            
+            </div>
         </div>
 
 
         <div className="h-auto md:h-screen flex items-center flex-col md:flex-row gap-4 md:gap-0  px-10 md:px-20 py-10">
           <div className="flex flex-col items-center gap-3 flex-1">
-            <Image src='/treatment.jpg' alt='prevention' width={120} height={120} />
+          
             <h2 className="text-primary text-3xl md:text-5xl">Other Services</h2>
            
           </div>
           <div
             className={
-              "relative flex h-[160px] md:h-[350px]  flex-col p-6 overflow-hidden rounded-lg border bg-muted md:shadow-xl flex-1 "
+              "relative hidden md:flex h-[100px] md:h-[350px]  flex-col p-6 overflow-hidden rounded-lg border bg-muted md:shadow-xl flex-1 "
             }
           >
             <AnimatedList>
@@ -202,6 +251,23 @@ const ServicesPage = () => {
               ))}
             </AnimatedList>
           </div>
+          <div className="flex md:hidden  flex-col gap-4 items-center">
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Serve as a pool for hospitals and health centers to access trained professionals   </p>
+            </div>
+             <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Provide deliver of medication and medical equipment</p>
+            </div>
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Provide ambulance service </p>
+            </div>
+            
+            <div className="p-2 px-3 bg-secondary shadow-lg rounded-2xl ">
+              <p className='text-wrap'>Provide death care </p>
+            </div>
+           
+            
+            </div>
         </div>
       
       </div>
