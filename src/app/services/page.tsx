@@ -146,7 +146,7 @@ const ServicesPage = () => {
           </div>
           <div
             className={
-              "relative flex h-[350px]  flex-col p-6 overflow-hidden rounded-lg border bg-muted md:shadow-xl flex-1 "
+              "relative flex h-[160px] md:h-[350px]  flex-col p-6 overflow-hidden rounded-lg border bg-muted md:shadow-xl flex-1 "
             }
           >
             <AnimatedList>
@@ -173,7 +173,7 @@ const ServicesPage = () => {
           </div>
           <div
             className={
-              "relative flex h-[350px]  flex-col p-6 overflow-hidden rounded-lg border bg-muted md:shadow-xl flex-1 "
+              "relative flex h-[160px] md:h-[350px]  flex-col p-6 overflow-hidden rounded-lg border bg-muted md:shadow-xl flex-1 "
             }
           >
             <AnimatedList>
@@ -193,7 +193,7 @@ const ServicesPage = () => {
           </div>
           <div
             className={
-              "relative flex h-[350px]  flex-col p-6 overflow-hidden rounded-lg border bg-muted md:shadow-xl flex-1 "
+              "relative flex h-[160px] md:h-[350px]  flex-col p-6 overflow-hidden rounded-lg border bg-muted md:shadow-xl flex-1 "
             }
           >
             <AnimatedList>
