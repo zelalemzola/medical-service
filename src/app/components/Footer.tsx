@@ -13,13 +13,13 @@ const Footer = () => {
             </div>
             <p className="text-sm text-gray-400">Talk to a Doctor with our secure and friendly platfrom</p>
             <div className="flex flex-col items-start gap-3">
-              <div className="flex items-center gap-3 flex-wrap">
-                <Link href='/about' className='text-sm text-primary font-light'>About</Link>
-                <Link href='/services' className='text-sm text-primary font-light'>services</Link>
+              <div className="flex items-center gap-4 flex-wrap">
+                <Link href='/about' className='text-sm md:text-lg text-primary font-light'>About</Link>
+                <Link href='/services' className='text-sm md:text-lg text-primary font-light'>services</Link>
               </div>
-              <div className="flex items-center gap-3 flex-wrap">
-                <Link href='/chat' className='text-sm text-primary font-light'>Chat</Link>
-                <Link href='/' className='text-sm text-primary font-light'>Terms and conditions</Link>
+              <div className="flex items-center gap-4 flex-wrap">
+                <Link href='/chat' className='text-sm md:text-lg text-primary font-light'>Chat</Link>
+                <Link href='/' className='text-sm md:text-lg text-primary font-light'>Terms and conditions</Link>
               </div>
             </div>
         </div>
