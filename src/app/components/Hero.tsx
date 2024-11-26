@@ -38,7 +38,7 @@ const Hero = () => {
             <Image src={HeroDoc} alt='doctor Image' className='-z-10'/>
            </BlurFade>
             
-            <PulsatingButton className="absolute top-14 right-2 md:right-14  bg-white text-gray-400 rounded-full p-2 flex flex-row items-center gap-3 shadow-lg flex-row text-sm md:text-lg">
+            <PulsatingButton className="absolute top-20 md:top-14 right-2 md:right-14  bg-white text-gray-400 rounded-full p-2 flex flex-row items-center gap-3 shadow-lg  text-sm md:text-lg">
                <span className='text-green-500' ><CircleDot size={23}/></span> 
                <span> 24/7 <span className='text-primary'>Online</span> Service</span>
                

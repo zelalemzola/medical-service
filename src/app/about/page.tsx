@@ -16,6 +16,9 @@ const AboutPage = () => {
          </div>
         </div>
       </div>
+      <div className="h-auto py-10">
+        
+      </div>
     </div>
   )
 }
