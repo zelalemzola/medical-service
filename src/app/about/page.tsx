@@ -1,4 +1,5 @@
 import React from 'react'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 const AboutPage = () => {
   return (
@@ -17,7 +18,18 @@ const AboutPage = () => {
         </div>
       </div>
       <div className="h-auto py-10">
+          <h2 className='text-3xl md:text-4xl font-bold text-center'>What is Unique about us?</h2>
+          <div className="py-10 px-10">
+          <Tabs defaultValue="account" className="w-full">
+            <TabsList className='w-full'>
+              <TabsTrigger value="account"  className='w-1/2 text-xl'>Account</TabsTrigger>
+              <TabsTrigger value="password" className='w-1/2 text-xl'>Password</TabsTrigger>
+            </TabsList>
+            <TabsContent value="account" className='w-full'>Make changes to your account here.</TabsContent>
+            <TabsContent value="password">Change your password here.</TabsContent>
+          </Tabs>
 
+          </div>
       </div>
     </div>
   )
