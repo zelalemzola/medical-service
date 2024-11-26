@@ -15,7 +15,7 @@ const Why = () => {
             <BlurFade delay={0.25} inView={true} className="flex flex-col items-center gap-3 bg-gray-200 p-2 rounded-xl w-auto md:w-[23%] hover:bg-gray-300">
             <Image src='/docs.png' alt='doctors' width={84} height={84}/>
             <p className="text-lg font-bold">All Specialists</p>
-            <p className="text-md text-gray-400">you can reach out to various doctors in different specialities via DoChat</p>
+            <p className="text-md text-gray-400 text-center">you can reach out to various doctors in different specialities via DoChat</p>
         </BlurFade>
         
         
@@ -24,15 +24,15 @@ const Why = () => {
        
             <Image src='/security.png' alt='doctors' width={84} height={84}/>
             <p className="text-lg font-bold">Private & Secure  </p>
-            <p className="text-md text-gray-400">All your data is protected and safeguarded</p>
+            <p className="text-md text-gray-400 text-center">All your data is protected and safeguarded</p>
        
         </BlurFade>
 
         <BlurFade delay={0.45} inView={true} className="flex flex-col items-center gap-3 bg-gray-200 p-2 rounded-xl w-auto md:w-[23%] hover:bg-gray-300">
        
             <Image src='/users.png' alt='doctors' width={84} height={84}/>
-            <p className="text-lg font-bold">Million Customers</p>
-            <p className="text-md text-gray-400">Trusted by millions and serving users worldwide. Users from all over the world</p>
+            <p className="text-lg font-bold">Millions of Customers</p>
+            <p className="text-md text-gray-400 text-center">Trusted by millions and serving users worldwide. Users from all over the world</p>
        
         </BlurFade>
 
@@ -40,7 +40,7 @@ const Why = () => {
         
             <Image src='/chat.png' alt='doctors' width={84} height={84}/>
             <p className="text-lg font-bold">Chatbot Support</p>
-            <p className="text-md text-gray-400">We offer you 24/7 online chat support where you can find just about all solution to your problems 
+            <p className="text-md text-gray-400 text-center">We offer you 24/7 online chat support where you can find just about all solution to your problems 
         
             </p>
         
