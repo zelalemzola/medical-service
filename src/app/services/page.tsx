@@ -165,7 +165,7 @@ const ServicesPage = () => {
         </div>
 
 
-        <div className="h-auto md:h-screen flex items-center flex-col md:flex-row gap-4 md:gap-0  px-10 md:px-20">
+        <div className="h-auto md:h-screen flex items-center flex-col md:flex-row gap-4 md:gap-0  px-10 md:px-20 py-10">
           <div className="flex flex-col items-center gap-3 flex-1">
             <Image src='/treatment.jpg' alt='prevention' width={120} height={120} />
             <h2 className="text-primary text-3xl md:text-4xl">Treatment</h2>
@@ -185,7 +185,7 @@ const ServicesPage = () => {
         </div>
 
 
-        <div className="h-auto md:h-screen flex items-center flex-col md:flex-row gap-4 md:gap-0  px-10 md:px-20">
+        <div className="h-auto md:h-screen flex items-center flex-col md:flex-row gap-4 md:gap-0  px-10 md:px-20 py-10">
           <div className="flex flex-col items-center gap-3 flex-1">
             <Image src='/treatment.jpg' alt='prevention' width={120} height={120} />
             <h2 className="text-primary text-3xl md:text-5xl">Other Services</h2>
