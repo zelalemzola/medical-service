@@ -19,14 +19,22 @@ const AboutPage = () => {
       </div>
       <div className="h-auto py-10">
           <h2 className='text-3xl md:text-4xl font-bold text-center'>What is Unique about us?</h2>
-          <div className="py-10 px-10">
-          <Tabs defaultValue="account" className="w-full">
-            <TabsList className='w-full'>
-              <TabsTrigger value="account"  className='w-1/2 text-xl'>Account</TabsTrigger>
-              <TabsTrigger value="password" className='w-1/2 text-xl'>Password</TabsTrigger>
+          <div className="py-10 px-10 md:px-20">
+          <Tabs defaultValue="1" className="w-full">
+            <TabsList className='w-full py-2'>
+              <TabsTrigger value="1"  className='w-1/3 text-xl'>1</TabsTrigger>
+              <TabsTrigger value="2" className=' w-1/3  text-xl'>2</TabsTrigger>
+              <TabsTrigger value="3" className=' w-1/3 text-xl'>3</TabsTrigger>
             </TabsList>
-            <TabsContent value="account" className='w-full'>Make changes to your account here.</TabsContent>
-            <TabsContent value="password">Change your password here.</TabsContent>
+            <TabsContent value="1" className='w-full px-10 text-center'>
+              the length we go to prevent miss diagnosis we consult health professionals from all around the world with better expertise to get different opinions about a challenging health problem through our chat rooms.
+            </TabsContent>
+            <TabsContent value="2" className='w-full px-10 text-center'>
+              We connect with as many pharmaceuticals as available to come up with the necessary medication for the diagnosed disease all over the world. 
+            </TabsContent>
+            <TabsContent value="3" className='w-full px-10 text-center'>
+              Make available all the necessary equipment for the well-being of our patients.
+            </TabsContent>
           </Tabs>
 
           </div>
