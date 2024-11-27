@@ -27,9 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head><script src="/bot.js"/></head>
       <body
         className={` antialiased flex flex-col justify-between h-full`}
       >
+        
         <Navbar />
         <div className="pt-[10%] md:pt-[3%] w-full z-0 h-[100%]"> {children}</div>
         <div className='items-end'><Footer /></div>
