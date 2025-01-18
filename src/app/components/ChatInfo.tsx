@@ -24,7 +24,6 @@ const ChatInfo = () => {
                     text="Experience the ultimate convenience and peace of mind with our cutting-edge, secure, and user-friendly platform. Connect with licensed doctors anytime, anywhere—right from the palm of your hand. Whether it&apos;s a quick question, a follow-up, or immediate medical advice, our platform makes accessing professional healthcare as easy as sending a message. Say goodbye to waiting rooms and hello to instant, reliable medical care tailored to your needs, wherever life takes you. Start your journey to better health today!"
                 />
 
-                <Link href='/' className='bg-primary p-2 px-6 md:text-lg rounded-full text-white shadow-md hover:shadow-2xl'>Start Chat</Link>
             </div>
 
         </div>

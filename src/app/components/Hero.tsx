@@ -25,11 +25,9 @@ const Hero = () => {
           text="Talk to a doctor using our highly secure, user friendly platform."
         />
         <div className="flex items-center gap-4 flex-wrap pt-5">
-          <BlurFade delay={0.45} inView={true}>
-            <Link href='/' className='bg-primary p-2 rounded-full text-white shadow-md hover:shadow-xl text-lg md:text-xl'>Chat with a doctor</Link>
-          </BlurFade>
+          
           <BlurFade delay={0.55} inView={true}>
-            <Link href='/' className='bg-white p-2 rounded-full text-primary shadow-md hover:shadow-xl text-lg md:text-xl'>Contact Us</Link>
+            <Link href='https://t.me/+251930005452' className='bg-white p-2 rounded-full text-primary shadow-md hover:shadow-xl text-lg md:text-xl'>Contact Us</Link>
           </BlurFade>
         </div>
 
