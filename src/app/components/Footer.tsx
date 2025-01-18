@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4 items-start">
             <div className='flex items-end gap-3 flex-wrap'>
                 <Image src='/mlogo.png' width={40} height={40} alt=''/>
-                <p className='text-lg font-bold text-primary'>DoChat</p>
+                <p className='text-lg font-bold text-primary'>Chatroom</p>
             </div>
             <p className="text-sm text-gray-400">Talk to a Doctor with our secure and friendly platfrom</p>
             <div className="flex flex-col items-start gap-3">

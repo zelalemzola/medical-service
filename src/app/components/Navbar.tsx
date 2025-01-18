@@ -20,7 +20,7 @@ import { Button } from '@/components/ui/button';
         <div className='fixed z-40 flex items-center justify-between px-5 md:px-10 w-full py-2 bg-white shadow-lg'>
             <div className="flex items-end gap-3">
                 <Image src={Logo} alt='logo' className='h-10 w-10 '/>
-                <p className='text-md font-bold text-primary block'>DoChat</p>
+                <p className='text-md font-bold text-primary block'>Chatroom</p>
             </div>
             <div className='hidden md:flex items-center gap-5'>
                 <Link href='/' className='text-primary font-medium text-lg p-1 hover:text-black'>Home</Link>

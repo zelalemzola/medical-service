@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="flex flex-col items-start gap-4 flex-1">
         <BlurFade  delay={0.25} inView={true}>
             <h1 className='text-3xl md:text-4xl text-black font-bold'>
-                Consult a doctor anytime,anywhere via <span className='text-primary '> DoChat</span>
+                Consult a doctor anytime,anywhere via <span className='text-primary '>Chatroom</span>
             </h1>
             </BlurFade>
         <FadeText
