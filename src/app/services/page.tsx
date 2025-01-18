@@ -86,7 +86,7 @@ const Service = () => {
                  </div>
 
                     <div className="flex flex-col md:flex-row gap-6">
-                 <div className="flex flex-col   w-1/2">
+                 <div className="flex flex-col   md:w-1/2">
                     <div className=" md:py-10">
                             <h2 className="text-gray-400 text-xl md:text-2xl">3. Chronic and other life style related problem</h2>
                     </div>
@@ -131,7 +131,7 @@ const Service = () => {
                     </div>
                  </div>
 
-                 <div className="flex flex-col  w-1/2">
+                 <div className="flex flex-col md:w-1/2">
                     <div className=" py-10">
                             <h2 className="text-gray-400 text-xl md:text-2xl">4. Addictive and related behavior  problems</h2>
                     </div>
@@ -154,7 +154,7 @@ const Service = () => {
                  </div>
                  </div>
                     <div className="flex flex-col md:flex-row gap-6">
-                 <div className="flex flex-col   w-1/2">
+                 <div className="flex flex-col   md:w-1/2">
                     <div className=" md:py-10">
                             <h2 className="text-gray-400 text-xl md:text-2xl">5.Nutrition and dietary problem</h2>
                     </div>
@@ -190,7 +190,7 @@ const Service = () => {
                     </div>
                  </div>
 
-                 <div className="flex flex-col w-1/2">
+                 <div className="flex flex-col md:w-1/2">
                     <div className="py-10 ">
                             <h2 className="text-gray-400 text-xl md:text-2xl">6.Psychiatric and psychological </h2>
                     </div>
@@ -272,7 +272,7 @@ const Service = () => {
                  </div>
 
                     <div className="flex flex-col md:flex-row gap-6">
-                 <div className="flex flex-col   w-1/2">
+                 <div className="flex flex-col   md:w-1/2">
                     <div className=" md:py-10">
                                 <h2 className="text-gray-400 text-xl md:text-2xl">3. Care for those with the need  for palliative care we Provide?</h2>
                     </div>
@@ -297,7 +297,7 @@ const Service = () => {
                     </div>
                  </div>
 
-                 <div className="flex flex-col   w-1/2">
+                 <div className="flex flex-col   md:w-1/2">
                     <div className=" py-10">
                                 <h2 className="text-gray-400 text-xl md:text-2xl">4. All services we provide on the basis of care </h2>
                     </div>
@@ -323,7 +323,7 @@ const Service = () => {
                  </div>
                  </div>
                     <div className="flex flex-col md:flex-row gap-6">
-                 <div className="flex flex-col   w-1/2">
+                 <div className="flex flex-col   md:w-1/2">
                     <div className=" md:py-10">
                                 <h2 className="text-gray-400 text-xl md:text-2xl">5. Illness that require intensive care </h2>
                     </div>
@@ -345,7 +345,7 @@ const Service = () => {
                     </div>
                  </div>
 
-                 <div className="flex flex-col w-1/2">
+                 <div className="flex flex-col md:w-1/2">
                     <div className="py-10 ">
                                 <h2 className="text-gray-400 text-xl md:text-2xl">6.Those with surgical procedure </h2>
                     </div>
