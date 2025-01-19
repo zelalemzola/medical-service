@@ -15,7 +15,7 @@ const Why = () => {
             <BlurFade delay={0.25} inView={true} className="flex flex-col items-center gap-3 bg-gray-200 p-2 rounded-xl w-auto md:w-[23%] hover:bg-gray-300">
             <Image src='/docs.png' alt='doctors' width={84} height={84}/>
             <p className="text-lg font-bold">All Specialists</p>
-            <p className="text-md text-gray-400 text-center">you can reach out to various doctors in different specialities via DoChat</p>
+            <p className="text-md text-gray-400 text-center">You can reach out to various doctors in different specialities via DoChat</p>
         </BlurFade>
         
         
