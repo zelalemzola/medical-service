@@ -25,7 +25,7 @@ const Navbar = () => {
             <div className='hidden md:flex items-center gap-5'>
                 <Link href='/' className='text-primary font-medium text-lg p-1 hover:text-black'>Home</Link>
                 <Link href='/about' className='text-primary font-medium text-lg p-1 hover:text-black'>About</Link>
-                <Link href='/services' className='text-primary font-medium text-lg p-1 hover:text-black'>Services</Link>
+                <Link href='/service' className='text-primary font-medium text-lg p-1 hover:text-black'>Services</Link>
                 
                 <Link href='/blogs' className='text-primary font-medium text-lg p-1 hover:text-black'>Blogs</Link>
             </div>
@@ -48,7 +48,7 @@ const Navbar = () => {
                         <div className="flex flex-col items-center gap-3 w-full mx-auto">
                             <Link href='/' className='text-primary font-medium text-lg p-1 hover:text-black'>Home</Link>
                             <Link href='/about' className='text-primary font-medium text-lg p-1 hover:text-black'>About</Link>
-                            <Link href='/services' className='text-primary font-medium text-lg p-1 hover:text-black'>Services</Link>
+                            <Link href='/service' className='text-primary font-medium text-lg p-1 hover:text-black'>Services</Link>
                             <Link href='/blogs' className='text-primary font-medium text-lg p-1 hover:text-black'>Blogs</Link>
                             <Link href='/workers' className='text-white bg-primary p-1 rounded-lg font-medium text-lg  hover:shadow-lg'>Professionals</Link>
                             <Link href='https://t.me/+251930005452' className='text-gray-400 bg-white p-1 px-3 rounded-full font-medium text-xs  shadow-lg flex items-center flex-col gap-1'>Contact Us</Link>

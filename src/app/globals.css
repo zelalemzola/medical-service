@@ -76,3 +76,30 @@ body {
     @apply bg-background text-foreground;
   }
 }
+.services-grid {
+  @apply grid gap-8 md:grid-cols-2 lg:grid-cols-3;
+}
+
+.medical-card {
+  @apply bg-card text-card-foreground shadow-lg rounded-lg overflow-hidden transition-transform duration-300 hover:scale-105;
+}
+
+.medical-card-image {
+  @apply h-48 w-full object-cover;
+}
+
+.medical-card-content {
+  @apply p-6;
+}
+
+.medical-card-title {
+  @apply text-2xl font-semibold mb-4;
+}
+
+.symptoms-popover {
+  @apply bg-popover text-popover-foreground p-4 rounded-lg shadow-xl max-w-sm;
+}
+
+.symptoms-list {
+  @apply list-disc pl-5 space-y-2;
+}
